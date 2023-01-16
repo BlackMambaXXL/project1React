@@ -1,13 +1,20 @@
 import style from './Header.module.css';
 
-console.log(style);
+const headerMenu = ['Main', 'About', 'Contacts' , 'Navigation' , 'Profile'];
 
 const Header = () =>{
     return (
-        <header className={style.header}>
-            <h1>Header</h1>
-            {}
-        </header>
+        <div className={style.headerMenu}>
+
+            {
+                headerMenu.map((headerMenu) =>{
+                    return (
+                        <a className={style.headerMenuA}>{headerMenu}</a>
+                    )
+                })
+            }
+            
+        </div>
     )
 } 
 

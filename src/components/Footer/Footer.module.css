@@ -1,0 +1,15 @@
+.header {
+    background-color: lightgreen;
+}
+
+.footerMenu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 100px;
+}
+.footerMenuA {
+    font-size: 18px;
+    color: darkgray;
+    cursor: pointer;
+}
