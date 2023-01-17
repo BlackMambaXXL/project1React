@@ -1,0 +1,14 @@
+.header {
+    background-color: lightgreen;
+}
+
+.headerMenu{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+.headerMenuA{
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+}
